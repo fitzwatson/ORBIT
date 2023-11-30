@@ -44,6 +44,7 @@ design_phases:
 - MooringSystemDesign
 - OffshoreSubstationDesign
 - SemiSubmersibleDesign
+- SemiSubStorageDesign
 install_phases:
   ArrayCableInstallation: 0
   ExportCableInstallation: 0
@@ -51,5 +52,7 @@ install_phases:
   MooringSystemInstallation: 0
   OffshoreSubstationInstallation: 0
   TurbineInstallation: 0
+  SemiSubStorageInstallation: 0
 # Project Inputs
 turbine: 12MW_generic
+#storage: floating_energy_storage

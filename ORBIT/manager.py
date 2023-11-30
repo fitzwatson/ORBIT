@@ -35,6 +35,7 @@ from ORBIT.phases.design import (
     SemiSubmersibleDesign,
     CustomArraySystemDesign,
     OffshoreSubstationDesign,
+    SemiSubStorageDesign,
 )
 from ORBIT.phases.install import (
     JacketInstallation,
@@ -48,6 +49,7 @@ from ORBIT.phases.install import (
     ScourProtectionInstallation,
     FloatingSubstationInstallation,
     OffshoreSubstationInstallation,
+    SemiSubStorageInstallation,
 )
 from ORBIT.core.exceptions import (
     PhaseNotFound,
@@ -73,6 +75,7 @@ class ProjectManager:
         SemiSubmersibleDesign,
         SparDesign,
         ElectricalDesign,
+        SemiSubStorageDesign,
     )
 
     _install_phases = (
@@ -87,6 +90,7 @@ class ProjectManager:
         GravityBasedInstallation,
         FloatingSubstationInstallation,
         JacketInstallation,
+        SemiSubStorageInstallation,
     )
 
     def __init__(self, config, library_path=None, weather=None):

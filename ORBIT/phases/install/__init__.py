@@ -20,3 +20,4 @@ from .quayside_assembly_tow import (
     GravityBasedInstallation,
 )
 from .scour_protection_install import ScourProtectionInstallation
+from .quayside_assembly_tow import SemiSubStorageInstallation

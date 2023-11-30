@@ -8,3 +8,4 @@ __email__ = "jake.nunemaker@nrel.gov"
 
 from .moored import MooredSubInstallation
 from .gravity_base import GravityBasedInstallation
+from .semisub_storage_installation import SemiSubStorageInstallation
